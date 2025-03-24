@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nur's Bio</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom left, #ff7e5f, #feb47b); /* Gradient Background */
+            color: #333; /* Dark text color for better contrast */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3.5rem;
+            color: #333; /* Dark text color */
+            margin-top: 50px;
+            text-transform: uppercase;
+            animation: slideIn 2s ease-out;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2rem;
+            color: #333; /* Dark text color */
+            margin-bottom: 40px;
+            font-style: italic;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        /* Container Styling */
+        .container {
+            max-width: 1100px;
+            margin: 50px auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            animation: bounceInUp 1.5s ease-in-out;
+        }
+
+        /* Animations */
+        @keyframes slideIn {
+            0% {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            100% {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes bounceInUp {
+            0% {
+                transform: translateY(200px);
+                opacity: 0;
+            }
+            60% {
+                transform: translateY(-30px);
+                opacity: 1;
+            }
+            80% {
+                transform: translateY(10px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        /* Section Styling */
+        .section {
+            padding: 20px 0;
+            border-bottom: 2px solid #feb47b;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .section:last-child {
+            border-bottom: none;
+        }
+
+        .section:hover {
+            transform: translateX(20px);
+            background-color: #fff5e6;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin: 15px 0;
+            padding: 0 20px;
+            text-align: justify;
+        }
+
+        strong {
+            color: #ff7e5f;
+        }
+
+        /* Quote Styling */
+        .quote {
+            font-style: italic;
+            color: #2c3e50;
+            text-align: center;
+            margin-top: 30px;
+            padding: 25px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #2c3e50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1.1rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Meet NOY: A Glimpse Into Her Life</h1>
+            <h2>Discover More About Her Journey, Passions, and Dreams</h2>
+        </div>
+
+        <div class="section">
+            <p><strong>Full Name:</strong> Nur Olifa Yeasmin</p>
+            <p><strong>Meaning of the Name:</strong> Nur means "Light" in Arabic, symbolizing her radiant personality and how she lights up every room.</p>
+        </div>
+
+        <div class="section">
+            <p><strong>Date of Birth:</strong> June 24, 2009</p>
+            <p><strong>Place of Birth:</strong> Assam</p>
+<p><strong>Important Thing:</strong> </p>
+        </div>
+
+        <div class="section">
+            <p><strong>Current School/Grade:</strong> 11th</p>
+<p><strong>Fav Subject:</strong> </p>
+<p><strong>Aim:</strong> </p>
+        </div>
+
+        <div class="section">
+            <p><strong>Hobbies:</strong></p>
+<p><strong>Doing Fav Thing In Free Time:</strong> </p>
+        </div>
+
+        <div class="quote">
+            <p>"The best way to predict your future is to create it." – Abraham Lincoln</p>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 All Rights Reserved | Designed with 💖 By Anas </p>
+            <p>❤️ I Love Youh ❤️</p>
+            <p>Will Youh Marry Meh</p>
+        </footer>
+    </div>
+
+</body>
+</html>
